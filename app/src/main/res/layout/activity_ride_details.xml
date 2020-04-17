@@ -50,7 +50,8 @@
         app:layout_constraintTop_toTopOf="parent"
 
         app:layout_constraintStart_toStartOf="@id/guideline_left"
-        app:layout_constraintEnd_toStartOf="@id/guideline_right"/>
+        app:layout_constraintEnd_toStartOf="@id/guideline_right"
+        android:fontFamily="@font/montserrat_medium"/>
 
 
     <EditText
@@ -62,6 +63,7 @@
         android:backgroundTint="@color/white"
         android:inputType="date"
         android:hint="Enter Date"
+        android:fontFamily="@font/open_sans_semibold"
         android:drawableStart="@drawable/ic_calendar_24dp"
         android:drawablePadding="20dp"
         app:layout_constraintTop_toBottomOf="@id/dateTxt"
@@ -82,7 +84,8 @@
         app:layout_constraintTop_toBottomOf="@id/dateEdit"
 
         app:layout_constraintStart_toStartOf="@id/guideline_left"
-        app:layout_constraintEnd_toStartOf="@id/guideline_right"/>
+        app:layout_constraintEnd_toStartOf="@id/guideline_right"
+        android:fontFamily="@font/montserrat_medium"/>
 
     <EditText
         android:id="@+id/timeEdit"
@@ -93,6 +96,7 @@
         android:backgroundTint="@color/white"
         android:inputType="time"
         android:hint="Enter Time"
+        android:fontFamily="@font/open_sans_semibold"
         android:drawableStart="@drawable/ic_clock_time__24dp"
         android:drawablePadding="20dp"
         app:layout_constraintTop_toBottomOf="@id/timeTxt"
@@ -114,7 +118,8 @@
         app:layout_constraintTop_toBottomOf="@id/timeEdit"
 
         app:layout_constraintStart_toStartOf="@id/guideline_left"
-        app:layout_constraintEnd_toStartOf="@id/guideline_right"/>
+        app:layout_constraintEnd_toStartOf="@id/guideline_right"
+        android:fontFamily="@font/montserrat_medium"/>
 
 
     <EditText
@@ -127,6 +132,7 @@
         android:inputType="number"
         android:text="4"
         android:hint=""
+        android:fontFamily="@font/open_sans_semibold"
         android:drawableStart="@drawable/ic_free_seat_24dp"
         android:drawablePadding="20dp"
         app:layout_constraintStart_toStartOf="@id/guideline_left"
@@ -137,10 +143,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/custom_button1"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textColor="@color/pastelGreen"
         android:textAllCaps="false"
         android:text="+1"
+        android:fontFamily="@font/open_sans_semibold"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@id/numberPicker"
         app:layout_constraintEnd_toStartOf="@id/minusBtn"
@@ -152,10 +159,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/custom_button1"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textColor="@color/pastelGreen"
         android:textAllCaps="false"
         android:text="-1"
+        android:fontFamily="@font/open_sans_semibold"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@id/plussBtn"
         app:layout_constraintEnd_toStartOf="@id/guideline_right"
@@ -184,7 +192,8 @@
         android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/numberPicker"
         app:layout_constraintStart_toStartOf="@id/guideline_left"
-        app:layout_constraintEnd_toStartOf="@id/guideline_right" />
+        app:layout_constraintEnd_toStartOf="@id/guideline_right"
+        android:fontFamily="@font/montserrat_medium"/>
 
     <SeekBar
         android:id="@+id/pickUpRangeValue"
@@ -209,7 +218,8 @@
         android:text="Minimum Passanger trip: 0km"
         app:layout_constraintTop_toBottomOf="@id/pickUpRangeValue"
         app:layout_constraintLeft_toLeftOf="@id/guideline_left"
-        app:layout_constraintRight_toRightOf="@id/guideline_right"/>
+        app:layout_constraintRight_toRightOf="@id/guideline_right"
+        android:fontFamily="@font/montserrat_medium"/>
 
 
     <SeekBar
@@ -234,7 +244,8 @@
         android:hint="Price"
         app:layout_constraintTop_toBottomOf="@id/rangeValue"
         app:layout_constraintStart_toStartOf="@id/guideline_left"
-        app:layout_constraintEnd_toStartOf="@id/guideline_right"/>
+        app:layout_constraintEnd_toStartOf="@id/guideline_right"
+        android:fontFamily="@font/montserrat_medium"/>
 
     <SeekBar
         android:id="@+id/priceSeekBar"
@@ -255,6 +266,7 @@
         android:layout_marginTop="10dp"
         android:padding="10dp"
         android:textSize="15dp"
+        android:fontFamily="@font/montserrat_medium"
         android:textColor="@color/black"
         android:text="Example km:\nPrice: 0eur"
         android:background="@drawable/custom_edittext1"
@@ -270,6 +282,9 @@
         android:textColor="@color/pastelGreen"
         android:textAllCaps="false"
         android:text="Confirm"
+        android:fontFamily="@font/montserrat_medium"
+        android:textStyle="bold"
+        android:textSize="18sp"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@id/guideline_left"
         app:layout_constraintEnd_toStartOf="@id/guideline_right"

@@ -197,7 +197,7 @@
         app:layout_constraintStart_toStartOf="@+id/guideline_left"
         app:layout_constraintTop_toBottomOf="@+id/textViewBio"
         android:background="@drawable/custom_edittext1"
-        android:typeface="@font/open_sans_semibold"/>
+        android:fontFamily="@font/open_sans_semibold"/>
 
     <Button
         android:id="@+id/saveProfileDetailButton"
@@ -240,7 +240,8 @@
         android:textColorHint="@color/hintlog"
         app:layout_constraintEnd_toStartOf="@+id/guideline_right"
         app:layout_constraintStart_toStartOf="@+id/guideline_left"
-        app:layout_constraintTop_toBottomOf="@+id/textViewPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewPassword"
+        android:fontFamily="@font/open_sans_regular"/>
 
     <EditText
         android:id="@+id/passedit"
@@ -269,7 +270,8 @@
         android:textColorHint="@color/hintlog"
         app:layout_constraintEnd_toStartOf="@+id/guideline_right"
         app:layout_constraintStart_toStartOf="@+id/guideline_left"
-        app:layout_constraintTop_toBottomOf="@+id/passedit" />
+        app:layout_constraintTop_toBottomOf="@+id/passedit"
+        android:fontFamily="@font/open_sans_regular"/>
 
     <Button
         android:id="@+id/changePasswordButton"
